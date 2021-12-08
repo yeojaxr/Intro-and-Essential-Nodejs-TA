@@ -1,0 +1,9 @@
+1. Node.js adalah runtime environment untuk JavaScript yang sifatnya open-source dan cross-platform. Dengan menggunakannya Node.js kita tidak hanya dapat menggunakannya di lingkungan browser, tetapi kita dapat menjalankan kode javascript dimanapun. Perbedaan javascript dengan node.js, javascript adalah bahasa pemrograman sedangkan node.js adalah runtimenya.
+2. Ketika terdapat perintah baru maka akan ditambahkan (push) dan akan di keluarkan ketika perintahnya sudah selasai (pop). Terdapat event queue yang berguna sebagai penampung ketika terdapat perintah baru yang akan dieksekusi. Event loop akan memeriksa terus menerus, ketika antrian kosong di call stack maka akan menambah antrian baru dari event queue sampai semua perintah selesai di eksekusi.
+3. - Built-in Module : modul bawaan (build-in) yang bisa kita gunakan dalam membuat aplikasi. modul ini tidak perlu diinstall dengan npm lagi karena sudah disediakan sejak kita menginstall node.js.
+   - External Module : modul yang dapat digunakan tetapi harus diinstall terlebih dahulu dengan npm, kemudian diimpor dengan fungsi require()
+   - Custom Module : modul yang kita buat sendiri yang tidak ada di dalam build-in dan npm.
+4. contoh dari :
+   - Built-in Module : http
+   - External Module : momentjs
+   - Custom Module : hobby.js
