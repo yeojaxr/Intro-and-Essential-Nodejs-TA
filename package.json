@@ -1,0 +1,25 @@
+{
+  "name": "Intro-and-Essential-Nodejs-TA",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node.js": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeojaxr/Intro-and-Essential-Nodejs-TA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeojaxr/Intro-and-Essential-Nodejs-TA/issues"
+  },
+  "homepage": "https://github.com/yeojaxr/Intro-and-Essential-Nodejs-TA#readme"
+}
